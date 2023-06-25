@@ -8,6 +8,8 @@
 import SwiftUI
 import CoreData
 
+// random change: 
+
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
