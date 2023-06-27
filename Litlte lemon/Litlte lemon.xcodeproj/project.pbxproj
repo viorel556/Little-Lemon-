@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1F1957362A48A3100064BAB5 /* Litlte_lemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957352A48A3100064BAB5 /* Litlte_lemonApp.swift */; };
-		1F1957382A48A3100064BAB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957372A48A3100064BAB5 /* ContentView.swift */; };
 		1F19573A2A48A3120064BAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1957392A48A3120064BAB5 /* Assets.xcassets */; };
 		1F19573D2A48A3120064BAB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F19573C2A48A3120064BAB5 /* Preview Assets.xcassets */; };
-		1F19573F2A48A3120064BAB5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F19573E2A48A3120064BAB5 /* Persistence.swift */; };
 		1F1957422A48A3120064BAB5 /* Litlte_lemon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957402A48A3120064BAB5 /* Litlte_lemon.xcdatamodeld */; };
 		1F19574C2A48A3120064BAB5 /* Litlte_lemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F19574B2A48A3120064BAB5 /* Litlte_lemonTests.swift */; };
 		1F1957562A48A3130064BAB5 /* Litlte_lemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957552A48A3130064BAB5 /* Litlte_lemonUITests.swift */; };
 		1F1957582A48A3130064BAB5 /* Litlte_lemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957572A48A3130064BAB5 /* Litlte_lemonUITestsLaunchTests.swift */; };
+		1F7065E62A4B288800BDB904 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7065E52A4B288800BDB904 /* Onboarding.swift */; };
+		1F7065E92A4B2F7E00BDB904 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7065E82A4B2F7E00BDB904 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +38,17 @@
 /* Begin PBXFileReference section */
 		1F1957322A48A3100064BAB5 /* Litlte lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Litlte lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1957352A48A3100064BAB5 /* Litlte_lemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litlte_lemonApp.swift; sourceTree = "<group>"; };
-		1F1957372A48A3100064BAB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F1957392A48A3120064BAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F19573C2A48A3120064BAB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1F19573E2A48A3120064BAB5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1F1957412A48A3120064BAB5 /* Litlte_lemon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Litlte_lemon.xcdatamodel; sourceTree = "<group>"; };
 		1F1957472A48A3120064BAB5 /* Litlte lemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Litlte lemonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F19574B2A48A3120064BAB5 /* Litlte_lemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litlte_lemonTests.swift; sourceTree = "<group>"; };
 		1F1957512A48A3130064BAB5 /* Litlte lemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Litlte lemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1957552A48A3130064BAB5 /* Litlte_lemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litlte_lemonUITests.swift; sourceTree = "<group>"; };
 		1F1957572A48A3130064BAB5 /* Litlte_lemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litlte_lemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F7065E52A4B288800BDB904 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		1F7065E72A4B2F5200BDB904 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		1F7065E82A4B2F7E00BDB904 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				1F1957352A48A3100064BAB5 /* Litlte_lemonApp.swift */,
-				1F1957372A48A3100064BAB5 /* ContentView.swift */,
+				1F7065E52A4B288800BDB904 /* Onboarding.swift */,
+				1F7065E82A4B2F7E00BDB904 /* Model.swift */,
+				1F7065E72A4B2F5200BDB904 /* data.json */,
 				1F1957392A48A3120064BAB5 /* Assets.xcassets */,
-				1F19573E2A48A3120064BAB5 /* Persistence.swift */,
 				1F1957402A48A3120064BAB5 /* Litlte_lemon.xcdatamodeld */,
 				1F19573B2A48A3120064BAB5 /* Preview Content */,
 			);
@@ -263,10 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F19573F2A48A3120064BAB5 /* Persistence.swift in Sources */,
 				1F1957422A48A3120064BAB5 /* Litlte_lemon.xcdatamodeld in Sources */,
-				1F1957382A48A3100064BAB5 /* ContentView.swift in Sources */,
+				1F7065E62A4B288800BDB904 /* Onboarding.swift in Sources */,
 				1F1957362A48A3100064BAB5 /* Litlte_lemonApp.swift in Sources */,
+				1F7065E92A4B2F7E00BDB904 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
