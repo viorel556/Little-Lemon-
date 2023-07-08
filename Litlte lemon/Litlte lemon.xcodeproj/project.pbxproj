@@ -10,12 +10,22 @@
 		1F1957362A48A3100064BAB5 /* Litlte_lemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957352A48A3100064BAB5 /* Litlte_lemonApp.swift */; };
 		1F19573A2A48A3120064BAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1957392A48A3120064BAB5 /* Assets.xcassets */; };
 		1F19573D2A48A3120064BAB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F19573C2A48A3120064BAB5 /* Preview Assets.xcassets */; };
-		1F1957422A48A3120064BAB5 /* Litlte_lemon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957402A48A3120064BAB5 /* Litlte_lemon.xcdatamodeld */; };
-		1F19574C2A48A3120064BAB5 /* Litlte_lemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F19574B2A48A3120064BAB5 /* Litlte_lemonTests.swift */; };
-		1F1957562A48A3130064BAB5 /* Litlte_lemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957552A48A3130064BAB5 /* Litlte_lemonUITests.swift */; };
-		1F1957582A48A3130064BAB5 /* Litlte_lemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957572A48A3130064BAB5 /* Litlte_lemonUITestsLaunchTests.swift */; };
+		1F1957422A48A3120064BAB5 /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F1957402A48A3120064BAB5 /* ExampleDatabase.xcdatamodeld */; };
+		1F61758C2A596006007D2506 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61758B2A596006007D2506 /* Styles.swift */; };
+		1F6175902A5961FB007D2506 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61758F2A5961FB007D2506 /* FetchedObjects.swift */; };
+		1F6175922A596219007D2506 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6175912A596219007D2506 /* Persistance.swift */; };
+		1F6175952A596307007D2506 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6175942A596307007D2506 /* MenuItem.swift */; };
+		1F6175972A596319007D2506 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6175962A596319007D2506 /* MenuList.swift */; };
+		1F6175992A5963FA007D2506 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6175982A5963FA007D2506 /* ViewModel.swift */; };
+		1F61759B2A596457007D2506 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61759A2A596457007D2506 /* Menu.swift */; };
+		1F61759D2A596489007D2506 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61759C2A596489007D2506 /* Home.swift */; };
+		1F61759F2A5964B6007D2506 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61759E2A5964B6007D2506 /* UserProfile.swift */; };
+		1F6175A12A5964F8007D2506 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6175A02A5964F8007D2506 /* Hero.swift */; };
+		1F6175A32A596534007D2506 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6175A22A596534007D2506 /* Header.swift */; };
+		1F6175A52A59656F007D2506 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6175A42A59656F007D2506 /* FoodItem.swift */; };
+		1F6175A72A5965A2007D2506 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6175A62A5965A2007D2506 /* MainScreen.swift */; };
+		1F6175A92A5965CC007D2506 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6175A82A5965CC007D2506 /* DetailItem.swift */; };
 		1F7065E62A4B288800BDB904 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7065E52A4B288800BDB904 /* Onboarding.swift */; };
-		1F7065E92A4B2F7E00BDB904 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7065E82A4B2F7E00BDB904 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +52,22 @@
 		1F19573C2A48A3120064BAB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F1957412A48A3120064BAB5 /* Litlte_lemon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Litlte_lemon.xcdatamodel; sourceTree = "<group>"; };
 		1F1957472A48A3120064BAB5 /* Litlte lemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Litlte lemonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F19574B2A48A3120064BAB5 /* Litlte_lemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litlte_lemonTests.swift; sourceTree = "<group>"; };
 		1F1957512A48A3130064BAB5 /* Litlte lemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Litlte lemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F1957552A48A3130064BAB5 /* Litlte_lemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litlte_lemonUITests.swift; sourceTree = "<group>"; };
-		1F1957572A48A3130064BAB5 /* Litlte_lemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litlte_lemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F61758B2A596006007D2506 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		1F61758F2A5961FB007D2506 /* FetchedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		1F6175912A596219007D2506 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		1F6175942A596307007D2506 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		1F6175962A596319007D2506 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		1F6175982A5963FA007D2506 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1F61759A2A596457007D2506 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1F61759C2A596489007D2506 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1F61759E2A5964B6007D2506 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		1F6175A02A5964F8007D2506 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		1F6175A22A596534007D2506 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		1F6175A42A59656F007D2506 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		1F6175A62A5965A2007D2506 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		1F6175A82A5965CC007D2506 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
 		1F7065E52A4B288800BDB904 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
-		1F7065E72A4B2F5200BDB904 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		1F7065E82A4B2F7E00BDB904 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				1F1957342A48A3100064BAB5 /* Litlte lemon */,
-				1F19574A2A48A3120064BAB5 /* Litlte lemonTests */,
-				1F1957542A48A3130064BAB5 /* Litlte lemonUITests */,
 				1F1957332A48A3100064BAB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,12 +116,13 @@
 		1F1957342A48A3100064BAB5 /* Litlte lemon */ = {
 			isa = PBXGroup;
 			children = (
-				1F1957352A48A3100064BAB5 /* Litlte_lemonApp.swift */,
-				1F7065E52A4B288800BDB904 /* Onboarding.swift */,
-				1F7065E82A4B2F7E00BDB904 /* Model.swift */,
-				1F7065E72A4B2F5200BDB904 /* data.json */,
 				1F1957392A48A3120064BAB5 /* Assets.xcassets */,
-				1F1957402A48A3120064BAB5 /* Litlte_lemon.xcdatamodeld */,
+				1F1957352A48A3100064BAB5 /* Litlte_lemonApp.swift */,
+				1F61758B2A596006007D2506 /* Styles.swift */,
+				1F61758A2A595FDC007D2506 /* CoreData */,
+				1F6175932A5962C7007D2506 /* Models */,
+				1F61758D2A5960D2007D2506 /* Views */,
+				1F61758E2A596113007D2506 /* ViewModels */,
 				1F19573B2A48A3120064BAB5 /* Preview Content */,
 			);
 			path = "Litlte lemon";
@@ -118,21 +136,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1F19574A2A48A3120064BAB5 /* Litlte lemonTests */ = {
+		1F61758A2A595FDC007D2506 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				1F19574B2A48A3120064BAB5 /* Litlte_lemonTests.swift */,
+				1F61758F2A5961FB007D2506 /* FetchedObjects.swift */,
+				1F6175912A596219007D2506 /* Persistance.swift */,
+				1F1957402A48A3120064BAB5 /* ExampleDatabase.xcdatamodeld */,
 			);
-			path = "Litlte lemonTests";
+			path = CoreData;
 			sourceTree = "<group>";
 		};
-		1F1957542A48A3130064BAB5 /* Litlte lemonUITests */ = {
+		1F61758D2A5960D2007D2506 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1F1957552A48A3130064BAB5 /* Litlte_lemonUITests.swift */,
-				1F1957572A48A3130064BAB5 /* Litlte_lemonUITestsLaunchTests.swift */,
+				1F7065E52A4B288800BDB904 /* Onboarding.swift */,
+				1F61759A2A596457007D2506 /* Menu.swift */,
+				1F61759C2A596489007D2506 /* Home.swift */,
+				1F61759E2A5964B6007D2506 /* UserProfile.swift */,
+				1F6175A02A5964F8007D2506 /* Hero.swift */,
+				1F6175A22A596534007D2506 /* Header.swift */,
+				1F6175A42A59656F007D2506 /* FoodItem.swift */,
+				1F6175A62A5965A2007D2506 /* MainScreen.swift */,
+				1F6175A82A5965CC007D2506 /* DetailItem.swift */,
 			);
-			path = "Litlte lemonUITests";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F61758E2A596113007D2506 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F6175982A5963FA007D2506 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F6175932A5962C7007D2506 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F6175942A596307007D2506 /* MenuItem.swift */,
+				1F6175962A596319007D2506 /* MenuList.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +309,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F1957422A48A3120064BAB5 /* Litlte_lemon.xcdatamodeld in Sources */,
+				1F6175A72A5965A2007D2506 /* MainScreen.swift in Sources */,
+				1F6175952A596307007D2506 /* MenuItem.swift in Sources */,
+				1F6175992A5963FA007D2506 /* ViewModel.swift in Sources */,
+				1F1957422A48A3120064BAB5 /* ExampleDatabase.xcdatamodeld in Sources */,
+				1F61759D2A596489007D2506 /* Home.swift in Sources */,
+				1F6175A52A59656F007D2506 /* FoodItem.swift in Sources */,
+				1F6175972A596319007D2506 /* MenuList.swift in Sources */,
+				1F61759B2A596457007D2506 /* Menu.swift in Sources */,
+				1F61758C2A596006007D2506 /* Styles.swift in Sources */,
 				1F7065E62A4B288800BDB904 /* Onboarding.swift in Sources */,
+				1F6175A92A5965CC007D2506 /* DetailItem.swift in Sources */,
+				1F61759F2A5964B6007D2506 /* UserProfile.swift in Sources */,
+				1F6175902A5961FB007D2506 /* FetchedObjects.swift in Sources */,
+				1F6175A32A596534007D2506 /* Header.swift in Sources */,
 				1F1957362A48A3100064BAB5 /* Litlte_lemonApp.swift in Sources */,
-				1F7065E92A4B2F7E00BDB904 /* Model.swift in Sources */,
+				1F6175A12A5964F8007D2506 /* Hero.swift in Sources */,
+				1F6175922A596219007D2506 /* Persistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +333,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F19574C2A48A3120064BAB5 /* Litlte_lemonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +340,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F1957582A48A3130064BAB5 /* Litlte_lemonUITestsLaunchTests.swift in Sources */,
-				1F1957562A48A3130064BAB5 /* Litlte_lemonUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,13 +649,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1F1957402A48A3120064BAB5 /* Litlte_lemon.xcdatamodeld */ = {
+		1F1957402A48A3120064BAB5 /* ExampleDatabase.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				1F1957412A48A3120064BAB5 /* Litlte_lemon.xcdatamodel */,
 			);
 			currentVersion = 1F1957412A48A3120064BAB5 /* Litlte_lemon.xcdatamodel */;
-			path = Litlte_lemon.xcdatamodeld;
+			path = ExampleDatabase.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
